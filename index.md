@@ -7,6 +7,10 @@ property management workflows.
 ## Latest Articles
 Blog posts will appear automatically once added to the `_posts` folder.
 
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
+
 ## About This Blog
 The goal of this blog is to share practical knowledge for property managers in
 Europe and Ukraine, helping them improve operations and guest experience using
