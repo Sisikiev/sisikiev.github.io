@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title | default: "My Blog" }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { max-width: 800px; margin: 40px auto; font-family: Arial, sans-serif; line-height: 1.6; }
+        h1, h2 { margin-top: 1.5em; }
+        a { color: #007acc; }
+        ul { padding-left: 20px; }
+    </style>
+</head>
+<body>
+    {{ content }}
+</body>
+</html>
