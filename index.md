@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Welcome to My Blog
 
 This website is powered by GitHub Pages and contains articles, guides, and insights
