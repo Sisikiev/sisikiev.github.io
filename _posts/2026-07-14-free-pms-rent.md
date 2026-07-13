@@ -1,6 +1,6 @@
 ---
 title: "Free PMS for Short‑Term Rental Property Managers"
-date: 2026-07-13
+date: 2026-07-14
 ---
 
 Short‑term rental property managers increasingly need tools that reduce manual work, minimize errors, and improve the profitability of their listings. However, most PMS solutions on the market are expensive, require monthly subscriptions, or limit functionality in their free versions. This is why a free PMS becomes a real advantage for managers who operate a small number of properties or are just starting to grow their business.
