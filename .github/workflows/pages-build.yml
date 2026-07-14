@@ -6,8 +6,8 @@ name: Daily GitHub Pages Rebuild
 
 on:
   schedule:
-    - cron: "1 0 * * *"   # каждый день в 00:01
-  workflow_dispatch:       # возможность запустить вручную
+    - cron: "1 0 * * *"     # каждый день в 00:01
+  workflow_dispatch:         # возможность запустить вручную
 
 jobs:
   build:
@@ -22,28 +22,30 @@ jobs:
         with:
           ruby-version: "3.1"
 
-      - name: Install Jekyll
+      - name: Install dependencies
         run: |
           gem install bundler
-          gem install jekyll
+          bundle init
+          bundle add jekyll
 
-      - name: Build site with future posts enabled
+      - name: Build site
         run: |
-          jekyll build --future
+          bundle exec jekyll build --future
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./_site
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
 
