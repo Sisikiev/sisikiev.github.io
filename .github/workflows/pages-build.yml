@@ -1,3 +1,7 @@
+permissions:
+  pages: write
+  id-token: write
+
 name: Daily GitHub Pages Rebuild
 
 on:
