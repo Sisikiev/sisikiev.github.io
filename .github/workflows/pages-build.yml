@@ -38,7 +38,7 @@ jobs:
 
       - name: Build site
         run: |
-          bundle exec jekyll build --future
+          bundle exec jekyll build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
