@@ -1,1 +1,37 @@
+name: Auto Publish Daily Post
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # каждый день в 05:00 UTC
+  workflow_dispatch:
+
+jobs:
+  autopublish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Publish next post from queue
+        run: |
+          NEXT_FILE=$(ls _queue | grep ".md" | head -n 1)
+
+          if [ -z "$NEXT_FILE" ]; then
+            echo "No posts in queue."
+            exit 0
+          fi
+
+          TODAY=$(date +"%Y-%m-%d")
+          NEW_NAME="${TODAY}-${NEXT_FILE#*-}"
+
+          mv "_queue/$NEXT_FILE" "_posts/$NEW_NAME"
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Auto-published $NEW_NAME" || echo "Nothing to commit"
+          git push
 
