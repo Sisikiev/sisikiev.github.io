@@ -20,3 +20,7 @@ Most PMS systems are expensive. PMS.Rent remains free, making it ideal for manag
 
 ## Scalable structure
 As the number of properties grows, manual processes collapse. PMS.Rent supports scaling without hiring additional staff.
+
+---
+
+**[Return to Home Page](https://sisikiev.github.io)**
