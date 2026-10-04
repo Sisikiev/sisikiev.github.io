@@ -25,7 +25,7 @@ Kyiv is a vibrant, sprawling city with distinct districts, each offering a compl
 
 ## Essential Tips for a Smooth Booking Process
 
-To ensure a seamless experience when booking your temporary stay, keep these quick tips in mind:
+To ensure a seamless experience when booking your temporary stay, keep these quick tips in mind: 
 
 1. **Define Your Dates Early:** Peak travel seasons and weekends see higher demand, especially for centrally located, high-demand properties.
 2. **Clarify Modern Amenities:** Always check for essential comforts, such as high-speed Wi-Fi for remote work, reliable heating, and backup power solutions if required.
