@@ -13,3 +13,7 @@ A free PMS also helps reduce human error. When calendars, bookings, and guest co
 Another important benefit is flexibility. A browser‑based PMS that requires no installation allows managers to work from any device, in any location, and in multiple languages. This is especially valuable for those who manage properties across borders or collaborate with international teams.
 
 For managers who want to improve efficiency, reduce expenses, and maintain full control over their operations, a free PMS offers a practical and powerful solution.
+
+---
+
+**[Return to Home Page](https://sisikiev.github.io)**
