@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "A Comprehensive Guide to Short Term Rentals in Kyiv"
-permalink: /short-term-rentals-kyiv-guide/
+
+title: "How to Choose Comfortable Short Term Apartments in Kyiv"
+date: 2026-10-04
 ---
 
 # A Comprehensive Guide to Short Term Rentals in Kyiv
