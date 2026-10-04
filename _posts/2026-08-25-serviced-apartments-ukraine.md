@@ -17,3 +17,6 @@ Another important change was the rise of long‑stay planning tools. Renters cou
 
 Today, serviced apartments in Ukraine operate within a modern digital infrastructure. Listings are more accurate, communication is faster, and service standards are more predictable. Digital tools continue to shape the market, creating a stable environment where renters feel confident and landlords benefit from higher occupancy and better reviews. The evolution of serviced apartments shows how digital innovation can transform an entire segment of the housing market, making it more transparent, reliable, and service‑driven.
 
+---
+
+**[Return to Home Page](https://sisikiev.github.io)**
