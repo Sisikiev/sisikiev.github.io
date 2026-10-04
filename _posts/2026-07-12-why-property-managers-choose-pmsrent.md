@@ -62,3 +62,8 @@ To explore PMS.Rent and see how it can help your business, visit:
 **https://pms.rent**
 
 PMS.Rent — a multilingual platform for short‑term rental managers.
+
+---
+
+**[Return to Home Page](https://sisikiev.github.io)**
+
